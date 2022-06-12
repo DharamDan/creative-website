@@ -1,0 +1,538 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#navcontainer{
+  background-image: url("../images/header.jpg");
+  background-size: cover;
+  height: auto;
+   
+    
+  
+}
+nav{
+    height: auto;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px 20px 100px;
+    
+}
+.buttondiv{
+    padding: 0px 80px;
+    line-height: 50px;
+}
+nav button{
+    color: #FAD02C !important;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 100px;
+    /* background-color: #FAD02C; */
+}
+nav ul li{
+    padding: 10px;
+}
+nav ul li a{
+    font-family: "Ubuntu", sans-serif;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+}
+.newdiv{
+  
+    border: 1px solid none;
+    background-color: #FAD02C;
+    height: auto;
+    font-family: "ubuntu", sans-serif;
+    padding: 12px 11px 12px 11px;
+    font-weight: 400;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+#check{
+    display: none;
+}
+label div{
+    height: 4px;
+    width: 30px;
+    margin-top: 6px;
+    margin-right: 20px;
+
+
+    background-color: #000000;
+    cursor: pointer;
+    display: none;
+}
+nav button span{
+    color: #fff;
+}
+nav button:hover{
+    transform: scale(1.5);
+    transition: 0.5s ease-in-out;
+    text-decoration: underline #ffff;
+}
+#newdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:   space-between;
+    padding: 135px 10px 237px 10px;
+}
+#newdiv p{
+    color: white;
+    opacity: 1;
+    margin-bottom: 5px;
+    font-size: calc(12px + (16 - 14) * ((100vw - 300px) / (1200 - 300)));
+    font-family: "ubuntu", sans-serif;  
+
+}
+#newdiv h1{
+    font-size: 60px;
+    color: #fff; 
+    /* font-family: "ubuntu", sans-serif;   */
+    font-family: poppins;  
+    letter-spacing: 1px   ;
+
+    /* margin-top: 5px; */
+    text-align: center;
+
+    
+}
+#newdiv h1:hover{
+    color: #FAD02C;
+    animation: hello  5s 5s linear ;
+
+}
+
+#newdiv button{
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    padding: 9px 11px 8px 14px ;
+    font-size: 16px;
+    border-radius: 3px;
+    margin-top: 25px;
+    color: #fff;
+    background: transparent;
+    font-family: "ubuntu", sans-serif;
+    cursor: pointer;
+}
+#newdiv button:hover{
+    color: #fff;
+    background-color: #000000f1;
+    border: none;
+    transition: 1s ;
+}
+#aboutsection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    justify-content:center;
+    padding:90px;
+    background-color: #eaf0fc;
+    
+}
+ .headingtext{
+    color: #444;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: "ubuntu", sans-serif;
+
+}
+.aboutdiv h1{
+    font-size: 20px;
+    font-family: "ubuntu", sans-serif;
+    font-weight: 100;
+
+}
+
+.aboutdiv1 p{
+    line-height: 23px;
+}
+.aboutdiv {
+    padding-left: 5px;
+    padding-right: 20px;
+
+}
+
+.aboutdiv1 {
+    padding-left: 20px;
+    padding-right: 25px;
+
+}
+       
+.aboutdiv p{
+    color: #444 .8 ;
+    font-family: "ubuntu", sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+   
+}
+.aboutdiv1 p{
+    color: #444 ;
+    font-family: "ubuntu", sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+   
+}
+
+
+.aboutdiv2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    justify-content:space-between;
+    background-color: #ffff;
+    border: 1px solid none;
+    border-radius: 5px;
+    padding: 30px;   
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.aboutdiv button{
+    border: none;
+    color: #FAD02C;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: 500;
+}
+#about{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 60px  0px 70px 0px;
+    flex-wrap: wrap;
+
+}
+
+
+
+
+.onediv{
+    height: auto;
+    padding: 35px 10px 25px 0px;
+  
+}
+
+.onediv img{
+    height: 320px;
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.twodiv{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-right: 10px;
+   
+}
+.twodiv h1{
+    font-size:20px;
+    font-weight: 500;
+    font-family: "ubantu", sans-serif;
+    color: #495057;
+    /* opacity: .8; */
+
+}
+.twodiv p{
+     font-size: 14px;
+     line-height: 21px;
+    opacity: .8;
+    color: #444;
+    font-family: "ubantu" , sans-serif;
+  
+}
+.twodiv h6{
+    color: #adb5bd !important;
+    font-size: 14px;
+    font-weight: 100;
+    font-family: "ubantu" , sans-serif;
+    line-height: 20px;
+    opacity: .8;
+    color: #444;
+}
+.twodiv button{
+    border: 1px solid #FAD02C;
+    text-align: left;
+    padding: 4px 8px 4px 8px;
+    /* margin-top: 1rem; */
+    background: transparent;
+    font-size: 0.890rem;
+    line-height: 1.5;
+    border-radius: 0.1rem;
+    color: #FAD02C;
+    cursor: pointer;
+    font-weight: 500;
+}
+.twodiv button:hover{
+    background-color: #FAD02C;
+    color: #000;
+    font-size:0.895rem ;
+    transition: 0.5s;
+
+}
+#aboutdivnew2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #eaf0fc;
+    flex-wrap: wrap;
+}
+.twodiv2{
+  
+    text-align: left;
+    padding: 60px 20px 30px 50px;
+    /* border: 1px solid rebeccapurple; */
+}
+.twodiv2 h1{
+    font-size:20px;
+    font-weight: 500;
+    font-family: "ubantu", sans-serif;
+    color: #495057;
+    /* margin-bottom: 15px; */
+    /* opacity: .8; */
+
+}
+.twodiv2 p{
+     font-size: 14px;
+     line-height: 21px;
+    opacity: .8;
+    color: #444;
+    font-family: "ubantu" , sans-serif;
+    /* margin-left: 3rem; */
+}
+.twodiv2 h6{
+    color: #adb5bd !important;
+    font-size: 14px;
+    font-weight: 100;
+    font-family: "ubantu" , sans-serif;
+    /* margin-left: -2rem; */
+    line-height: 20px;
+    margin-top: 15px;
+
+    opacity: .8;
+    color: #444;
+}
+.twodiv2 button{
+    border: 1px solid #FAD02C;
+    text-align: left;
+    padding: 4px 8px 4px 8px;
+    margin-top: 1rem;
+    background: transparent;
+    font-size: 0.890rem;
+    line-height: 1.5;
+    border-radius: 0.1rem;
+    color: #FAD02C;
+    cursor: pointer;
+    font-weight: 500;
+}
+.twodiv2 button:hover{
+    background-color: #FAD02C;
+    color: #000;
+    font-size:0.895rem ;
+    transition: 0.5s;
+
+}
+.onediv2{
+    /* background-color: transparent; */
+    height: auto;
+    padding: 100px 20px 40px 20px;;
+    
+}
+.onediv2 img{
+    width: 400px;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+}
+@media only screen and (max-width:1200px) {
+    .onediv img{
+        height: 270px;
+    
+    }
+    .twodiv{
+        padding: 0px;
+    }
+    
+    .twodiv p{
+     font-size:smaller;
+     font-weight: 700;
+     text-align: justify;
+     line-height: 20px;
+    }
+    #aboutdivnew2{
+        padding-bottom: 50px;
+        padding-left: 0px;
+        padding-right: 40px;
+    }
+ 
+  
+
+
+
+   
+}
+@media only screen and (max-width:992px) {
+    nav ul{
+        display: none;
+    }
+    nav  input:checked ~ label{
+        position: fixed;
+        top: 10px;
+        right: 5px;
+        z-index: 100;
+    
+      
+    }
+    nav  input:checked ~ label div{
+        background-color: #fff;
+    }
+
+
+    nav  input:checked ~ .labelone .middle{
+        opacity: 0;
+    }
+    nav  input:checked ~ .labelone .top{
+        transform: rotate(134deg);
+        margin-top: 10px;
+        transition: 00.5s;
+    }
+    nav  input:checked ~ .labelone .bottom{
+        transform: rotate(-134deg);
+        margin-top: -11px;
+        transition: 0.5s;
+    }
+    label div{
+        display: block;
+        background-color:  #343a40;
+    }
+    nav  input:checked ~ ul{
+        display: block;
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        top: 0px;
+        left: 0%;
+        background-color: #000000bd;
+        padding: 10px;
+      
+    }
+    nav{
+        padding-left: 15px;
+
+    }
+    nav ul li{
+        text-align: center;
+    }
+    nav ul li a{
+        color: #ddbf47;
+    }
+
+    nav ul .newdiv {
+        padding: 10px 0px 10px 0px;
+        text-align: center;
+    }
+.aboutdiv2{
+flex-wrap: wrap;
+height: 100%;
+width: 100%;
+}
+#aboutsection{
+    padding: 20px;
+    
+}
+.aboutdiv button {
+    display: none;
+}
+#navcontainer{
+    background-size: cover center;
+}
+.onediv img{
+    height: 200px;
+
+}
+#about{
+    padding: 100px  20px 100px 0px;
+}
+.onediv{
+    padding: 35px 25px 25px 25px;
+
+
+}
+.twodiv{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content:space-between;
+}
+.onediv2{
+    padding: 40px 20px 40px 20px
+}
+}
+
+@media only screen and (max-width:576px) {
+    #aboutdivnew2{
+        padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 20px;
+    }
+    .twodiv2{
+        padding: 60px 0px 30px 20px;
+    }
+    .onediv2{
+        padding: 20px 20px 20px 20px
+    }
+    #about{
+        padding: 10px  0px 10px 0px;
+       
+    
+    }
+    .onediv img{
+        height: 250px;
+    }
+    .onediv{
+        /* padding: 10px 0px 25px 0px; */
+        padding: 20px;
+
+    }
+    .onediv2{
+
+    }
+    .onediv2 img{
+        width: 270px;
+    }
+    .twodiv{
+        padding: 20px;
+    }
+    .twodiv p{
+        font-size: 10px;
+    }
+}
+
+
+
+
+   
+    
+
